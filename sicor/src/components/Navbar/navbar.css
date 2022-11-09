@@ -1,0 +1,23 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4px;
+}
+
+.navbar__links-container{
+    display: flex;
+
+}
+
+.navbar-links{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 8px;
+    color: black;
+
+}
+
+.navbar-links:hover{
+    transform: scale(1.030);
+}
