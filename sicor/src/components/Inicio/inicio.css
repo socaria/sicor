@@ -1,0 +1,10 @@
+.inicio-container{
+    margin: 32px 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 80vw;
+    border: 1px solid #ccc;
+    justify-content: center;
+}

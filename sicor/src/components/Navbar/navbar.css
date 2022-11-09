@@ -1,8 +1,8 @@
 .navbar-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 4px;
+    justify-content: space-between;
+    margin: 16px 32px;
 }
 
 .navbar__links-container{
@@ -14,7 +14,7 @@
     text-decoration: none;
     cursor: pointer;
     margin-left: 8px;
-    color: black;
+    color: #ccc;
 
 }
 
