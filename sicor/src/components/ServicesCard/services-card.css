@@ -1,0 +1,21 @@
+.services-card{
+    display: flex;
+    border: solid 1px #ccc;
+    grid-auto-flow: column;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services-card:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.services-card__text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-card__img{
+    display: flex;
+}

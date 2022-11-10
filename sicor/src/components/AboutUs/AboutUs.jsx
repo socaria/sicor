@@ -1,17 +1,17 @@
 import React from "react";
-
 import './about-us.css';
+import img from '../../images/servicio.PNG';
 
 const AboutUs = () => {
     return (
         <div className="about-us">
             <div className="about-us__sections">
-                <h1 >
+                <h2 >
                     NOSOTROS
-                </h1>
+                </h2>
                 <p>texto descriptivo</p>
             </div>
-            <div className="about-us__sections">IMAGENES</div>
+            <img src={img} alt='Img'/>
         </div>
 
     )

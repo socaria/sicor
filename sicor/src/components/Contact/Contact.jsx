@@ -1,8 +1,11 @@
 import React from "react";
+import './contact.css';
 
 const Contact = () => {
     return (
-        <div>Contact</div>
+        <div className="contact">
+            <h2>Contact</h2>
+        </div>
     )
 }
 

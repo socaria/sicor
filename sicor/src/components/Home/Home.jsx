@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import Inicio from "../Inicio/Inicio";
+import Info from "../Info/Info";
 import AboutUs from "../AboutUs/AboutUs";
 import Services from "../Services/Services";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import './home.css';
 
 const Home = () => {
@@ -11,10 +12,11 @@ const Home = () => {
         <>
             <Navbar />
             <div className="home-container">
-                <Inicio />
+                <Info />
                 <AboutUs />
                 <Services />
                 <Contact />
+                <Footer />
             </div>
         </>
     )

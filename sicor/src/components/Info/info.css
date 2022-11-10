@@ -1,0 +1,7 @@
+.info{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    justify-content: center;
+}

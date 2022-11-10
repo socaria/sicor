@@ -5,10 +5,10 @@ import './navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="navbar-container">
+        <div className="navbar">
             <img src={logo} alt='logo' />
             <div className="navbar__links-container">
-                <a className="navbar-links" href='/inicio'>Inicio</a>
+                <a className="navbar-links" href='/info'>Info</a>
                 <a className="navbar-links" href='/nosotros'>Nosotros</a>
                 <a className="navbar-links" href='/servicios'>Servicios</a>
                 <a className="navbar-links" href='/Contact'>Contact</a>

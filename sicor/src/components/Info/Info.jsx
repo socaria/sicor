@@ -1,13 +1,13 @@
 import React from "react";
-import './inicio.css';
+import './info.css';
 
-const Inicio = () => {
+const Info = () => {
     return (
-        <div className="inicio-container">
-            <h1>SICOR INMUEBLES</h1>
+        <div className="info">
+            <h2>SICOR INMUEBLES</h2>
             <p>texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo texto descriptivo</p>
         </div>
     )
 }
 
-export default Inicio;
+export default Info;
